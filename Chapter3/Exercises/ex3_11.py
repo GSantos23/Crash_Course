@@ -13,4 +13,4 @@ print(dinner[0])
 print(dinner[1])
 print(dinner[2])
 
-# print(dinner[3])		# uncomment to see error
+# print(dinner[3])		# uncomment for error
