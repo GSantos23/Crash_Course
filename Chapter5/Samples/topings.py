@@ -29,10 +29,10 @@ for requested_topping in requested_toppings:
 # Check if list is not empty
 requested_toppings = []
 
-if requested_topping in requested_toppings:
+if requested_toppingsgit:
 	for requested_topping in requested_toppings:
 		print("Adding " + requested_topping + ".")
-	print("\nFinished making your pizza")
+	print("\nFinished making your pizzas")
 else:
 	print("\nAre you sure you want a plain pizza?")
 
