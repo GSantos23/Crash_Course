@@ -14,7 +14,13 @@ def city_country(city_name, country):
 	"""Display a city - country string
 	city_name -> string
 	country	  -> string"""
-	return city_name.title() + ' ' + country.title()
+	return city_name.title() + ', ' + country.title()
 
 my_city = city_country('santiago', 'chile')
+print(my_city)
+
+my_city = city_country('monterrey', 'mexico')
+print(my_city)
+
+my_city = city_country('dublin', 'ireland')
 print(my_city)
