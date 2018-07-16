@@ -28,3 +28,4 @@ while active:
 print("Information about places: ")
 for person, place in answers.items():
 	print(person.title() + " ----> " + place)
+	
