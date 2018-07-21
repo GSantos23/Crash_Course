@@ -12,7 +12,7 @@ indidually, and then call both methods.
 class Restaurant():
 	"""Give you Restaurant information"""
 	def __init__(self, restaurant_name, cuisine_type):
-		super(Restaurant, self).__init__()
+		#super(Restaurant, self).__init__()
 		self.restaurant_name = restaurant_name
 		self.cuisine_type = cuisine_type
 
