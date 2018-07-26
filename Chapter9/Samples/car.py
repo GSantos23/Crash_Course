@@ -1,4 +1,4 @@
-# Sample8.2
+# Sample 9.2
 class Car():
 	"""A simple attempt to represent a car."""
 	def __init__(self, make, model, year):
@@ -34,7 +34,7 @@ class Car():
 		"""Add the given amount to the odometer reading."""
 		self.odometer_reading += miles
 
-
+'''
 my_used_car = Car('subaru', 'ouback', 2013)
 print(my_used_car.get_descriptive_name())
 
@@ -43,7 +43,7 @@ my_used_car.read_odometer()
 
 my_used_car.increment_odometer(100)
 my_used_car.read_odometer()
-
+'''
 
 # Uncomment for previous version
 '''
