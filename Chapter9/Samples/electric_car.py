@@ -75,9 +75,10 @@ class ElectricCar(Car):
 		"""Print a statement describing the battery size."""
 		print("This car has a " + str(self.battery_size) + " -kWh battery.")
 	'''
-
+'''
 my_tesla = ElectricCar('tesla', 'model s', 2016)
 print(my_tesla.get_descriptive_name())
 # my_tesla.describe_battery()  # Uncomment to try describe battery attribute
 my_tesla.battery.describe_battery()
 my_tesla.battery.get_range()
+'''
