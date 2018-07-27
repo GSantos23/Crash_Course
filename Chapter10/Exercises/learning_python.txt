@@ -1,0 +1,4 @@
+In Python you can store variables and sring
+In Python you can create complex logic
+In Python you can subdivide the code for better understanding
+
