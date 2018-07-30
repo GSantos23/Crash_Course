@@ -1,4 +1,4 @@
-# Sample 10.7
+#  Sample 10.7
 import json
 
 numbers = [2, 3, 5, 7, 11, 13]
