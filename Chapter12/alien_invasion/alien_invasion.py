@@ -26,7 +26,7 @@ def run_game():
 		gf.check_events(ship)
 		ship.update()
 		# Redraw screen and images
-		gf.update_screen(ai_settings,screen,ship)
+		gf.update_screen(ai_settings,screen)
 
 
 run_game()
