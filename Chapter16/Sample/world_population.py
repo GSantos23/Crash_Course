@@ -34,7 +34,7 @@ for cc, pop in cc_populations.items():
 print(len(cc_pops_1), len(cc_pops_2), len(cc_pops_3))
 
 wm_style = RotateStyle('#336699')
-wm = World()
+wm = World(style=wm_style)
 wm.title = 'World Population in 2010, by Country'
 wm.add('0-10m', cc_pops_1)
 wm.add('10m-1bn', cc_pops_2)
