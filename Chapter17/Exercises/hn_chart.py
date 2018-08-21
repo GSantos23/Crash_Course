@@ -52,7 +52,7 @@ for submission_dict in submission_dicts:
         }
     plot_dicts.append(plot_dict)
 
-# Make visualization.
+# Make visualization
 my_style = LS('#333366', base_style=LCS)
 my_style.title_font_size = 24
 my_style.label_font_size = 10
